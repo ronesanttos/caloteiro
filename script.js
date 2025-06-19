@@ -3,7 +3,10 @@ const imagens = [
   "src/images/01.jpg",
   "src/images/02.png",
   "src/images/03.jpg",
-  "src/images/04.jpg"
+  "src/images/04.jpg",
+  "src/images/05.jpg",
+  "src/images/06.jpg",
+  "src/images/07.jpg",
 ];
 
 function imageRandom() {
@@ -17,7 +20,7 @@ setInterval(imageRandom, 5000)
 
 
 function copiar() {
-    const texto = 'meu pixx'
+    const texto = '11932080794'
 
     navigator.clipboard.writeText(texto)
         .then(() => {
